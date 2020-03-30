@@ -1,1 +1,47 @@
-<h1 id="title">Tell Me About Your Favorite Music</h1>
+<html lang="en">
+    <head>
+        <style>
+
+        </style>
+        <title>Music Survey</title>
+    </head>
+    <body style="background-color: bisque;">
+        <h1 id="title">What is your favorite music genre?</h1>
+        <p id="description"><b>This survey will let me know what music you're into.</b></p>
+        <form id="survey-form">
+            <label id="name-label">Name:</label>
+            <input id="name" type="text" name="name" placeholder="First Name" required><br>
+            <label id="email-label">Email:</label>
+            <input id="email" type="email" name="email" placeholder="Your E-mail" required><br>
+            <label id="number-label">Number (how passionate for genre):</label>
+            <input id="number" type="number" name="number" min="0" max="10" placeholder="#" required><br>
+            <select id="dropdown" name="Music">
+                <option value="rock">Rock</option>
+                <option value="metal">Metal</option>
+                <option value="pop">Pop</option>
+                <option value="hip-hop">Hip-hop</option>
+                <option value="r&b">R&B</option>
+                <option value="jazz">Jazz</option>
+                <option value="blues">Blues</option>
+                <option value="classical">Classical</option>
+                <option value="country">Country</option>
+                <option value="techno">Techno</option>
+                <option value="dubstep">Dubstep</option>
+                <option value="rap">Rap</option>
+                <option value="gospel">Gospel</option>
+            </select><br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br>
+            <textarea placeholder="Additional Comments"></textarea>
+            <input id="submit" type="submit"><br>
+        </form>
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
